@@ -1,0 +1,16 @@
+For Bubble Sort 
+In Worst case, 
+For N = 1000, it takes 0.05355119705200195 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Best case, 
+For N = 100, it takes 0.0010063648223876953 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Best case, 
+For N = 10000, it takes 2.64847731590271 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Best case, 
+For N = 10000, it takes 0.0016148090362548828 seconds to sort.
+-------------------------------------------------------------

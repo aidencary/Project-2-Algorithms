@@ -9,10 +9,10 @@ import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), "Sorts"))
 
 import random, time
-import bubble_sort
-import merge_sort
-import quick_sort
-import selection_sort
+from Sorts import bubble_sort
+from Sorts import merge_sort
+from Sorts import quick_sort
+from Sorts import selection_sort
 
 # Function to generate an array based on the case type
 def generate_array(size, case_type):
@@ -90,16 +90,23 @@ def main_loop():
                 break
             size = int(input("Enter the size of the array: "))
             execution_time = 0
+            case_scenario = "Best" if case_choice == "1" else "Worst" if case_choice == "2" else "Average"
+            sort_name = ''
             if sort_choice == "1":
+                sort_name = "Bubble Sort"
                 execution_time = measure_sort_time(size, case_choice, bubble_sort.bubbleSort)
             elif sort_choice == "2":
+                sort_name = "Merge Sort"
                 execution_time = measure_sort_time(size, case_choice, merge_sort.merge_sort)
             elif sort_choice == "3":
+                sort_name = "Quick Sort"
                 execution_time = measure_sort_time(size, case_choice, quick_sort.quick_sort)
             elif sort_choice == "4":
+                sort_name = "Selection Sort"
                 execution_time = measure_sort_time(size, case_choice, selection_sort.selection_sort)
-            #print(f"{sort_choice} on {case_choice} case with size {size} took {execution_time} seconds.")
-            print("--------------------------")
+            with open("sort_times.txt", "a") as file:
+                    file.write(f"For {sort_name} \nIn {case_scenario} case, \nFor N = {size}, it takes {execution_time} seconds to sort.\n")
+                    file.write("-------------------------------------------------------------\n")
 
 
 def main():

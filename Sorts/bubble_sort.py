@@ -1,11 +1,15 @@
 import random, time
 
 def bubbleSort(myList): # Bubble Sort Algorithm
-    for i in range(len(myList)-1):
-        for j in range(len(myList)-i-1):
+    n = len(myList)
+    for i in range(n - 1):
+        swapped = False
+        for j in range(n-i-1):
             if myList[j] > myList[j + 1]:
-                myList[j], myList[j+1] = \
-                           myList[j + 1], myList[j]
+                myList[j], myList[j+1] = myList[j + 1], myList[j]
+                swapped = True
+        if not swapped:
+            break # For best case scenario where the list is already sorted
     return myList
 
 '''
