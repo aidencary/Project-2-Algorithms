@@ -21,4 +21,5 @@ def quick_sort(array, begin=0, end=None):
     if end is None:
         end = len(array) - 1
     
-    return quick_sort_recursion(array, begin, end)
+    quick_sort_recursion(array, begin, end)
+    return array # Return the sorted array

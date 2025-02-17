@@ -1,16 +1,143 @@
 For Bubble Sort 
+In Best case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
 In Worst case, 
-For N = 1000, it takes 0.05355119705200195 seconds to sort.
+For N = 100, it takes 0.0009837150573730469 seconds to sort.
 -------------------------------------------------------------
-For Quick Sort 
-In Best case, 
-For N = 100, it takes 0.0010063648223876953 seconds to sort.
+For Bubble Sort 
+In Average case, 
+For N = 100, it takes 0.0 seconds to sort.
 -------------------------------------------------------------
 For Bubble Sort 
 In Best case, 
-For N = 10000, it takes 2.64847731590271 seconds to sort.
+For N = 1000, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Worst case, 
+For N = 1000, it takes 0.05297970771789551 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Average case, 
+For N = 1000, it takes 0.04198479652404785 seconds to sort.
 -------------------------------------------------------------
 For Bubble Sort 
 In Best case, 
-For N = 10000, it takes 0.0016148090362548828 seconds to sort.
+For N = 10000, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Worst case, 
+For N = 10000, it takes 5.76303505897522 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Average case, 
+For N = 10000, it takes 4.343999624252319 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Best case, 
+For N = 100000, it takes 0.004994869232177734 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Worst case, 
+For N = 100000, it takes 589.0695934295654 seconds to sort.
+-------------------------------------------------------------
+For Bubble Sort 
+In Average case, 
+For N = 100000, it takes 459.80089354515076 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Best case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Worst case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Average case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Best case, 
+For N = 1000, it takes 0.0010311603546142578 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Worst case, 
+For N = 1000, it takes 0.0020058155059814453 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Average case, 
+For N = 1000, it takes 0.0010342597961425781 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Best case, 
+For N = 10000, it takes 0.014961719512939453 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Worst case, 
+For N = 10000, it takes 0.01603388786315918 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Average case, 
+For N = 10000, it takes 0.025008201599121094 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Best case, 
+For N = 100000, it takes 0.18300223350524902 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Worst case, 
+For N = 100000, it takes 0.17703723907470703 seconds to sort.
+-------------------------------------------------------------
+For Merge Sort 
+In Average case, 
+For N = 100000, it takes 0.2859635353088379 seconds to sort.
+-------------------------------------------------------------For Selection Sort 
+In Best case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Worst case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Average case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Best case, 
+For N = 1000, it takes 0.020994186401367188 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Worst case, 
+For N = 1000, it takes 0.01996898651123047 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Average case, 
+For N = 1000, it takes 0.022014617919921875 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Best case, 
+For N = 10000, it takes 1.9569852352142334 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Worst case, 
+For N = 10000, it takes 2.0009984970092773 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Average case, 
+For N = 10000, it takes 1.9110009670257568 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Best case, 
+For N = 100000, it takes 186.1976535320282 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Worst case, 
+For N = 100000, it takes 197.30584239959717 seconds to sort.
+-------------------------------------------------------------
+For Selection Sort 
+In Average case, 
+For N = 100000, it takes 207.94622659683228 seconds to sort.
 -------------------------------------------------------------

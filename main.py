@@ -7,6 +7,7 @@ import sys, os
 
 # Add the Sorts directory to the system path
 sys.path.append(os.path.join(os.path.dirname(__file__), "Sorts"))
+sys.setrecursionlimit(2000)
 
 import random, time
 from Sorts import bubble_sort
@@ -19,7 +20,7 @@ def generate_array(size, case_type):
     if case_type == "1":
         return list(range(size)) # Best case (sorted)
     elif case_type == "2":
-        return list(range(size, 0, -1)) # Worst case (reverse sorted)
+        return list(range(size, -1, -1)) # Worst case (reverse sorted)
     elif case_type == "3":
         return random.sample(range(size), size) # Average case (random)
 
@@ -76,7 +77,7 @@ def print_case_menu(menu_choice):
         return choice
     else:
         print ("Invalid input. Please enter 1, 2, 3, or 4.")
-        return print_case_menu()
+        return print_case_menu(menu_choice)
 
 # Main loop to handle user input and menu options
 def main_loop():
@@ -90,7 +91,7 @@ def main_loop():
                 break
             size = int(input("Enter the size of the array: "))
             execution_time = 0
-            case_scenario = "Best" if case_choice == "1" else "Worst" if case_choice == "2" else "Average"
+            case_scenario = "Best" if case_choice == "1" else "Worst" if case_choice == "2" else "Average" if case_choice == "3" else "Invalid choice"
             sort_name = ''
             if sort_choice == "1":
                 sort_name = "Bubble Sort"
@@ -130,7 +131,7 @@ def main():
     print(f"Sorted array: {arr}")
     '''
 
-    print("Welcome to the test suire of selected sorting alogorithms!\n")
+    print("Welcome to the test suire of selected sorting algoorithms!\n")
     main_loop()
 
 
