@@ -131,7 +131,7 @@ def main():
     print(f"Sorted array: {arr}")
     '''
 
-    print("Welcome to the test suire of selected sorting algoorithms!\n")
+    print("Welcome to the test suire of selected sorting algorithms!\n")
     main_loop()
 
 

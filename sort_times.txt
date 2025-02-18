@@ -141,3 +141,35 @@ For Selection Sort
 In Average case, 
 For N = 100000, it takes 207.94622659683228 seconds to sort.
 -------------------------------------------------------------
+For Quick Sort 
+In Best case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Worst case, 
+For N = 100, it takes 0.0010066032409667969 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Average case, 
+For N = 100, it takes 0.0 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Best case, 
+For N = 1000, it takes 0.020000457763671875 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Worst case, 
+For N = 1000, it takes 0.030997037887573242 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Average case, 
+For N = 1000, it takes 0.0009951591491699219 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Average case, 
+For N = 10000, it takes 0.012963294982910156 seconds to sort.
+-------------------------------------------------------------
+For Quick Sort 
+In Average case, 
+For N = 100000, it takes 0.15799999237060547 seconds to sort.
+-------------------------------------------------------------
