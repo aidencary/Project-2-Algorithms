@@ -1,6 +1,6 @@
 # Aiden Cary, Dalton Gorham, Nathan Wetherington
 # Project 2 Algorithms
-# Testing the efficiency of different sort 
+# Testing the efficiency of different sorts 
 # on a randomly generated array of numbers based on the size from user input
 
 import sys, os
@@ -24,14 +24,13 @@ def generate_array(size, case_type):
     elif case_type == "3":
         return random.sample(range(size), size) # Average case (random)
 
-# Function use to meaure the sort execution time
+# Function used to measure the sort execution time
 def measure_sort_time(size, case_type, sort_func):
     # Generate the array
     arr = generate_array(size, case_type)
     # Get the start time
     start_time = time.time()
     # Call the sort function
-    # Have not thought this implementation through yet
     sort_func(arr)
     # Get the end time
     end_time = time.time()
@@ -111,27 +110,8 @@ def main_loop():
 
 
 def main():
-    '''
-    print("Main has been called")
-    # Test array
-    arr = [2, 3, 1, 5, 4]
-    print(f"Unsorted array: {arr}")
-    # Test quick sort
-    quick_sort.quick_sort(arr, 0, len(arr)-1)
 
-    # Test bubble sort
-    bubble_sort.bubbleSort(arr)
-
-    # Test merge sort (merge sort returns a new array that is sorted)
-    arr = merge_sort.merge_sort(arr)
-
-    # Test selection sort
-    selection_sort.selection_sort(arr)
-
-    print(f"Sorted array: {arr}")
-    '''
-
-    print("Welcome to the test suire of selected sorting algorithms!\n")
+    print("Welcome to the test suite of selected sorting algorithms!\n")
     main_loop()
 
 
